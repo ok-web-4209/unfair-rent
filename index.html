@@ -47,42 +47,22 @@
             "postalCode": "33004",
             "addressCountry": "US"
         },
-        "areaServed": {
-            "@type": "State",
-            "name": "Florida"
-        },
+        "areaServed": { "@type": "State", "name": "Florida" },
         "priceRange": "No fees unless we win",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "bestRating": "5",
+            "ratingCount": "100"
+        },
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
             "opens": "00:00",
             "closes": "23:59"
         },
-        "founder": {
-            "@type": "Person",
-            "name": "David Hoffman"
-        },
-        "sameAs": [
-            "https://hoffman.legal"
-        ]
-    }
-    </script>
-    <!-- Structured Data: WebSite with SearchAction -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Hoffman Legal",
-        "url": "https://hoffman.legal",
-        "inLanguage": ["en-US", "es"],
-        "publisher": {
-            "@type": "Organization",
-            "name": "Hoffman Legal",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://hoffman.legal/assets/images/logo.png"
-            }
-        }
+        "founder": { "@type": "Person", "name": "David Hoffman" },
+        "sameAs": ["https://share.google/jBOPLhtxedM0n3E1K"]
     }
     </script>
 </head>
@@ -111,14 +91,17 @@
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
-            <div class="translator-widget" role="group" aria-label="Language selector">
-                <button class="translator-btn" data-lang="en" aria-label="English">EN</button>
-                <span class="translator-divider">|</span>
-                <button class="translator-btn" data-lang="es" aria-label="Espa&ntilde;ol">ES</button>
+            <div class="header-actions">
+                <div class="translator-widget" role="group" aria-label="Language selector">
+                    <button class="translator-btn" data-lang="en" aria-label="English">EN</button>
+                    <span class="translator-divider">|</span>
+                    <button class="translator-btn" data-lang="es" aria-label="Espa&ntilde;ol">ES</button>
+                </div>
+                <a href="tel:9544594236" class="header-phone" aria-label="Call (954) 459-4236">
+                    <i class="fas fa-phone"></i>
+                    <span class="phone-text">(954) 459-4236</span>
+                </a>
             </div>
-            <a href="tel:9544594236" class="header-phone">
-                <i class="fas fa-phone"></i> (954) 459-4236
-            </a>
             <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -253,7 +236,80 @@
         </div>
     </section>
 
-    <!-- CTA Stats Section -->
+    <!-- Meet the Attorney Section -->
+    <section class="home-attorney-section" id="meet-attorney">
+        <div class="container home-attorney-container">
+            <div class="home-attorney-image">
+                <img src="assets/images/dff-headshot.jpg" alt="David Hoffman, Florida Tenant Rights Attorney" width="500" height="600">
+                <div class="home-attorney-image-border"></div>
+            </div>
+            <div class="home-attorney-content">
+                <span class="section-label">MEET YOUR ATTORNEY</span>
+                <h2 class="section-title">David Hoffman, Esq.</h2>
+                <p class="home-attorney-role">Founder &amp; Lead Tenant Rights Attorney</p>
+                <div class="section-divider"></div>
+
+                <p>David Hoffman is a Florida-licensed attorney who has built his entire practice around one mission: making sure renters across the Sunshine State get every dollar they are legally owed when a landlord wrongfully withholds a security deposit. With over a decade of focused experience in Florida landlord-tenant law and Florida Statute 83.49, David has personally guided thousands of clients to successful recoveries.</p>
+
+                <p>What sets David apart is the way he combines deep legal knowledge with genuine compassion. He answers his clients&rsquo; calls personally, explains the law in plain English, and treats every case &mdash; whether it&rsquo;s for $300 or $30,000 &mdash; with the same urgency and respect. His firm operates on a no-fee-unless-we-win basis, so financial pressure never stands between a tenant and the justice they deserve.</p>
+
+                <p>David is fluent in both English and Spanish, and he serves clients in every corner of Florida. <strong>Hablamos espa&ntilde;ol.</strong></p>
+
+                <ul class="home-attorney-creds">
+                    <li><i class="fas fa-graduation-cap"></i> Florida Bar Member &bull; Juris Doctor</li>
+                    <li><i class="fas fa-briefcase"></i> 10+ Years in Florida Tenant Rights Law</li>
+                    <li><i class="fas fa-language"></i> Bilingual: English &amp; Spanish</li>
+                    <li><i class="fas fa-hand-holding-dollar"></i> No Fee Unless We Win Your Case</li>
+                </ul>
+
+                <a href="david-hoffman.html" class="btn btn-primary home-attorney-cta">
+                    READ DAVID&rsquo;S FULL BIO <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Seals Section -->
+    <section class="trust-seals-section" aria-label="Trust and credentials">
+        <div class="container">
+            <div class="trust-seals-header">
+                <span class="section-label">TRUSTED &amp; CREDENTIALED</span>
+                <h2 class="trust-seals-title">Why Florida Tenants Choose Hoffman Legal</h2>
+            </div>
+            <div class="trust-seals-grid">
+                <div class="trust-seal">
+                    <div class="trust-seal-icon"><i class="fas fa-balance-scale"></i></div>
+                    <div class="trust-seal-text">
+                        <strong>Florida Bar</strong>
+                        <span>Member in Good Standing</span>
+                    </div>
+                </div>
+                <div class="trust-seal">
+                    <div class="trust-seal-icon"><i class="fas fa-user-shield"></i></div>
+                    <div class="trust-seal-text">
+                        <strong>Verified</strong>
+                        <span>Tenant Rights Attorney</span>
+                    </div>
+                </div>
+                <div class="trust-seal">
+                    <div class="trust-seal-icon"><i class="fas fa-lock"></i></div>
+                    <div class="trust-seal-text">
+                        <strong>100% Confidential</strong>
+                        <span>Secure Communications</span>
+                    </div>
+                </div>
+                <div class="trust-seal">
+                    <div class="trust-seal-icon"><i class="fas fa-handshake"></i></div>
+                    <div class="trust-seal-text">
+                        <strong>No Win, No Fee</strong>
+                        <span>Risk-Free Representation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Stats Section: 24/7 + Google Rating -->
     <section class="cta-section">
         <div class="container cta-container">
             <div class="cta-left">
@@ -264,27 +320,47 @@
                 </div>
             </div>
             <div class="cta-stats">
-                <div class="stat-item live-247">
-                    <div class="live-dot" aria-hidden="true"></div>
-                    <div class="stat-content">
-                        <span class="stat-number gold-text">Available</span>
-                        <span class="stat-label live-label">24/7 &mdash; Talk to an Attorney Now</span>
+                <!-- Premium 24/7 Live Badge -->
+                <a href="tel:9544594236" class="live-badge" aria-label="Call us 24 hours a day, 7 days a week">
+                    <div class="live-badge-pulse" aria-hidden="true">
+                        <span class="live-badge-ring"></span>
+                        <span class="live-badge-ring"></span>
+                        <span class="live-badge-core">
+                            <i class="fas fa-phone-volume"></i>
+                        </span>
                     </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon"><i class="fas fa-people-group"></i></div>
-                    <div class="stat-content">
-                        <span class="stat-number gold-text">5,000+</span>
-                        <span class="stat-label">Tenants<br>Helped</span>
+                    <div class="live-badge-text">
+                        <span class="live-badge-status">
+                            <span class="live-badge-blink"></span>
+                            LIVE NOW
+                        </span>
+                        <span class="live-badge-title">Speak to an Attorney</span>
+                        <span class="live-badge-sub">Available 24/7 &bull; No Wait</span>
                     </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon"><i class="fas fa-heart"></i></div>
-                    <div class="stat-content">
-                        <span class="stat-number gold-text">Millions</span>
-                        <span class="stat-label">Recovered for<br>Tenants</span>
+                </a>
+
+                <!-- Google 5-Star Rating Card -->
+                <a href="https://share.google/jBOPLhtxedM0n3E1K" target="_blank" rel="noopener" class="google-rating-card" aria-label="Read our 5-star Google reviews">
+                    <div class="google-rating-icon">
+                        <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true">
+                            <path fill="#EA4335" d="M12 5c1.6 0 3.1.6 4.2 1.7l3.1-3.1C17.4 1.7 14.9.7 12 .7 7.4.7 3.5 3.3 1.6 7l3.6 2.8C6.1 7 8.8 5 12 5z"/>
+                            <path fill="#34A853" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.7-2.4 3.6l3.6 2.8c2.1-1.9 3.3-4.8 3.3-8.6z"/>
+                            <path fill="#FBBC05" d="M5.2 14.3c-.2-.6-.3-1.2-.3-1.8s.1-1.2.3-1.8L1.6 7.9C.9 9.3.5 10.6.5 12.5s.4 3.2 1.1 4.6l3.6-2.8z"/>
+                            <path fill="#4285F4" d="M12 24c2.9 0 5.4-1 7.2-2.6l-3.6-2.8c-1 .7-2.3 1.1-3.6 1.1-3.2 0-5.9-2-6.8-5l-3.6 2.8C3.5 21.7 7.4 24 12 24z"/>
+                        </svg>
                     </div>
-                </div>
+                    <div class="google-rating-text">
+                        <div class="google-rating-stars" aria-label="5 out of 5 stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="google-rating-title">Rated 5.0 on Google</span>
+                        <span class="google-rating-link">Read Our Reviews <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -338,6 +414,23 @@
                 <p>From the shores of Miami to the heart of Orlando, from the communities of Tampa Bay to the neighborhoods of Jacksonville &mdash; wherever you call home in the Sunshine State, Hoffman Legal stands ready to protect your rights as a tenant.</p>
             </div>
         </div>
+
+        <!-- Report Bugs Strip -->
+        <div class="footer-bugs">
+            <div class="container footer-bugs-container">
+                <div class="footer-bugs-info">
+                    <i class="fas fa-bug"></i>
+                    <div>
+                        <strong>Spotted a Bug?</strong>
+                        <span>Help us improve. Report any website issues directly to our development team.</span>
+                    </div>
+                </div>
+                <a href="mailto:dev@hoffman.legal" class="footer-bugs-email">
+                    <i class="fas fa-envelope"></i> dev@hoffman.legal
+                </a>
+            </div>
+        </div>
+
         <div class="footer-bottom">
             <div class="container">
                 <p>&copy; 2026 Hoffman Legal. All rights reserved.</p>
