@@ -12,7 +12,7 @@
     <meta property="og:type" content="profile">
     <meta property="og:url" content="https://hoffman.legal/david-hoffman">
     <meta property="og:image" content="https://hoffman.legal/assets/images/dff-headshot.jpg">
-    <link rel="canonical" href="https://hoffman.legal/david-hoffman">
+    <link rel="canonical" href="https://hoffman.legal/david-hoffman.html">
     <title>David Hoffman | Tenant Rights Attorney | Hoffman Legal</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,8 +49,20 @@
         "description": "David Hoffman is a dedicated tenant rights attorney who has helped thousands of Florida renters recover their unfairly withheld security deposits."
     }
     </script>
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://hoffman.legal/"},
+            {"@type": "ListItem", "position": 2, "name": "David Hoffman", "item": "https://hoffman.legal/david-hoffman.html"}
+        ]
+    }
+    </script>
 </head>
 <body>
+    <div id="google_translate_element" style="display:none;"></div>
     <!-- Header -->
     <header class="header" id="header">
         <div class="container header-container">
@@ -68,9 +80,15 @@
                     <li><a href="how-we-help.html" class="nav-link">How We Help</a></li>
                     <li><a href="tenant-rights.html" class="nav-link">Tenant Rights</a></li>
                     <li><a href="faqs.html" class="nav-link">FAQs</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
                     <li><a href="index.html#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
+            <div class="translator-widget" role="group" aria-label="Language selector">
+                <button class="translator-btn" data-lang="en">EN</button>
+                <span class="translator-divider">|</span>
+                <button class="translator-btn" data-lang="es">ES</button>
+            </div>
             <a href="tel:9544594236" class="header-phone">
                 <i class="fas fa-phone"></i> (954) 459-4236
             </a>
@@ -165,14 +183,17 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="david-hoffman.html">David Hoffman</a></li>
                     <li><a href="how-we-help.html">How We Help</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-links">
-                <h4>&nbsp;</h4>
+                <h4>RESOURCES</h4>
                 <ul>
                     <li><a href="tenant-rights.html">Tenant Rights</a></li>
                     <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-use.html">Terms of Use</a></li>
                 </ul>
             </div>
             <div class="footer-contact">
@@ -190,12 +211,13 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p>&copy; 2024 Hoffman Legal. All rights reserved.</p>
+                <p>&copy; 2026 Hoffman Legal. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Mobile Menu Script -->
+    <!-- Scripts -->
+    <script src="assets/js/translator.js"></script>
     <script>
         const menuBtn = document.querySelector('.mobile-menu-btn');
         const nav = document.querySelector('.nav');
