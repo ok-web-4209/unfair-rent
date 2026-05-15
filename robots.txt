@@ -1,0 +1,9 @@
+# Hoffman Legal - robots.txt
+# https://hoffman.legal
+
+User-agent: *
+Allow: /
+Disallow: /assets/js/
+
+# Sitemap location
+Sitemap: https://hoffman.legal/sitemap.xml
