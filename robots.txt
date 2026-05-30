@@ -1,9 +1,9 @@
 # Hoffman Legal - robots.txt
-# https://hoffman.legal
+# https://floridadepositlaw.com
 
 User-agent: *
 Allow: /
 Disallow: /assets/js/
 
 # Sitemap location
-Sitemap: https://hoffman.legal/sitemap.xml
+Sitemap: https://floridadepositlaw.com/sitemap.xml
