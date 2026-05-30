@@ -3203,3 +3203,38 @@ body {
         text-align: center;
     }
 }
+
+
+
+/* ============================================
+   AREAS WE SERVE - LOCATION CROSS-LINKS
+   ============================================ */
+.areas-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    max-width: 900px;
+    margin: 10px auto 0;
+}
+
+.areas-links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 26px;
+    background: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 50px;
+    color: var(--navy-dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.areas-links a:hover {
+    background: var(--navy-dark);
+    color: var(--white);
+    border-color: var(--navy-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
