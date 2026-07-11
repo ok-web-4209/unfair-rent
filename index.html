@@ -3,6 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WMFK7CJXV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9WMFK7CJXV');
+        // Lead tracking: phone taps + case review form submissions
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
+                a.addEventListener('click', function () {
+                    gtag('event', 'phone_call', { 'link_location': location.pathname });
+                });
+            });
+            document.querySelectorAll('form.contact-form').forEach(function (f) {
+                f.addEventListener('submit', function () {
+                    gtag('event', 'generate_lead', { 'form_location': location.pathname });
+                });
+            });
+        });
+    </script>
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
     <link rel="alternate icon" href="assets/images/favicon.svg">
     <link rel="apple-touch-icon" href="assets/images/favicon.svg">
